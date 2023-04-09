@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 30px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav .logo img {
+    height: 50px;
+  }
+  
+  nav .menu-n ul {
+    display: flex;
+    text-decoration: none;
+  }
+  
+  nav .menu-n ul li {
+    margin-left: 39px;
+  }
+  
+  nav .menu-n ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .cn{
+    background-color: rgb(45, 45, 230);
+    border-radius: 20px;
+    color: white;
+  }
+  
+  nav .menu ul li a:hover {
+    color: #ff8c00;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header .header-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  header .header-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  header .header-content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  header .header-content .button {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #ff8c00;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  header .header-content .button:hover {
+    background-color: #e67300;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #f5f5f5;
+  }
+  
+  .services-content {
+    text-align: center;
+  }
+  
+  .services-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .services-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .services-content ul {
+    list-style: none;
+    font-size: 18px;
+  }
+  
+  .services-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  .about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #fff;
+  }
+  
+  .about-us-content {
+    text-align: center;
+  }
+  
+  .about-us-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .about-us-content .button {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: blue
+  }
